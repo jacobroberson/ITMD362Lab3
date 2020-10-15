@@ -209,17 +209,21 @@ body {
   margin-right: auto;
   margin-left: auto;
   text-shadow: 1.5px 1.5px white;
+  padding: 15px;
 }
 
 h1 {
   font-size: 2.779em;
   line-height: 1.2em;
+  background-color: #7d7d7d;
+  width: 100%;
+  border: none;
+  border-radius: .34375em;
+  box-shadow: 0em .1em .5em 0em black;
 }
-
-h2 {
-  padding-top: 2em;
-  font-size: 1.667em; 
-  line-height: 1.2em; 
+p {
+  font-size: 1.5em;
+  padding: 25px;
 }
 
 input {
