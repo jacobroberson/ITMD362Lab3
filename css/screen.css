@@ -192,6 +192,7 @@ img, audio, video {
 */
 
 html {
+  text-align: center;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -200,6 +201,32 @@ html {
 
 label {
   display: block;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif, "Segoe UI", Roboto, Helvetica;
+  background-color: #dbdbdb;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 1.5px 1.5px white;
+}
+
+h1 {
+  font-size: 2.779em;
+  line-height: 1.2em;
+}
+
+h2 {
+  padding-top: 2em;
+  font-size: 1.667em; 
+  line-height: 1.2em; 
+}
+
+input {
+  border: none;
+  font-family: 'Josefin Sans', sans-serif, "Segoe UI", Roboto, Helvetica;
+  padding: 15px 15px;
+  border-radius: 10px;
 }
 
 /* ===== LAYOUT STYLES ====== */
